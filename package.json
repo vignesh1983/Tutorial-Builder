@@ -1,0 +1,22 @@
+{
+  "name": "tutorial-builder",
+  "version": "1.0.0",
+  "description": "Full Stack Engineering Tutorial Builder with PDF generation",
+  "main": "PDFGenerator.js",
+  "scripts": {
+    "generate-pdf": "node PDFGenerator.js",
+    "build": "node PDFGenerator.js"
+  },
+  "keywords": [
+    "tutorial",
+    "full-stack",
+    "pdf",
+    "markdown"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^12.0.0",
+    "puppeteer": "^22.0.0"
+  }
+}
